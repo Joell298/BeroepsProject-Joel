@@ -1,0 +1,80 @@
+body{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    background-image: url("../img/Tree-featured.jpg");
+}
+
+.navbar>a{
+    color: black;
+    align-items: center;
+    text-decoration: thin 1px;
+    
+}
+
+.navbar{
+    background-color: skyblue;
+    padding: 9px;
+    font-size: larger;
+}
+
+/* Css voor logo home knop*/
+button{
+    width: 20%;
+    height: 80%;
+    visibility: hidden;
+    float: left;
+}
+
+button>img{
+    width: 80%;
+    visibility: visible;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: beige;
+}
+
+h1{
+    display: block;
+    color:darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+}
+
+/* CSS snelcode voor het centeren van teksten */
+.text-center{
+    text-align: center;
+}
+
+/* CSS voor login pagina */
+.main-content{
+    width: 15%;
+    margin: 15% auto;
+    margin-left: 80%;
+    border-radius: 5px;
+    border: solid darkgreen;
+    background:transparent;
+    backdrop-filter: blur(10px);
+}
+
+#submit{
+    border: none;
+    padding: 3%;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:teal;
+}
+
+#submit:hover{
+    background-color: aquamarine;
+}
+
+input{
+    border-radius: 10px;
+    border: solid darkgreen;
+    background: transparent;
+}
+

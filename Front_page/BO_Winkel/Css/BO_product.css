@@ -1,0 +1,92 @@
+body{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-size: 450vh;
+    background-position: right;
+    background-image: url("../img/Tree-featured.jpg")
+}
+
+.navbar>a{
+    color: black;
+    align-items: center;
+    text-decoration: thin 1px;
+    
+}
+
+.navbar{
+    background-color: skyblue;
+    padding: 9px;
+    font-size: larger;
+
+}
+
+button{
+    width: 20%;
+    height: 80%;
+    visibility: hidden;
+    float: left;
+}
+
+button>img{
+    width: 80%;
+    visibility: visible;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%; 
+    border-radius: 5px;
+}
+
+    
+.container{
+    max-width: 100vh;
+    margin: auto;
+    width: 100%;  
+}
+   
+.section-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+    
+.shop-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap: 2rem;
+}
+
+.product-box{
+    position: relative;
+}
+
+.product-box:hover{
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.product-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+   
+h2, span{
+  color: darkgreen;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+footer{
+    background-color: beige;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
